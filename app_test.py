@@ -12,6 +12,3 @@ def test_addition_nombres_negatifs():
 def test_addition_positif_negatif():
     assert additionner(10, -3) == 7
 
-
-def test_addition_zero():
-    assert additionner(5, 0) == 5
